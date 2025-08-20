@@ -2,7 +2,7 @@
 #!/bin/bash
 # Bash Script for Hide Phishing URL Created by KP
 
-url_checker() {
+url_checker(https://discord.com/) {
     if [ ! "${1//:*}" = http ]; then
         if [ ! "${1//:*}" = https ]; then
             echo -e "\e[31m[!] Invalid URL. Please use http or https.\e[0m"
